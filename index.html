@@ -87,6 +87,57 @@
             height: 17px;
             margin-top: 0px;
         }
+        @media only screen and (max-width: 600px) {
+            main {
+                padding-right: 0px;
+                padding-top: 0px;
+                padding-bottom: 0px;
+                padding-left: 0px;
+            }
+            
+            .left-column, .right-column {
+                padding-left: 9px;
+                padding-right: 0px;
+                padding-top: 0px;
+                padding-bottom: 0px;
+            }
+
+            .banner {
+                width: calc(100% - 16px); /* Adjust width to fit the screen width minus padding */
+                left: 50%; /* Move the banner to the horizontal center */
+                transform: translateX(-50%); /* Adjust to center horizontally */
+                top: 8px; /* Adjust top position for smaller screens */
+                text-align: center; /* Center text inside the banner */
+            }
+
+            h2
+            {
+                padding-top: 0px;
+                margin-bottom: 0px;
+                margin-top: 7px;
+            }
+
+            h1 {
+                font-size: 24px; /* Adjust font size */
+                line-height: 1.4; /* Adjust line height */
+            }
+
+            h4 {
+                font-size: 18px; /* Adjust font size */
+            }
+
+            ul {
+                margin: 1;
+                margin-top: 19px;
+                margin-bottom: 13px;
+                padding-bottom: 0px;
+                padding-left: 9px;
+            }
+            li{
+                font-size: 16px; /* Adjust font size */
+                line-height: 1.2; /* Adjust line height */
+            }
+        }
     </style>
 </head>
 
