@@ -1,4 +1,4 @@
-# This is a General html basic repository for learning plain html and build a Resume of our own
+# This is a General html css js basic repository for learning plain html and build some projects
 
 Html basics: https://rithiksanjeev.github.io/Resume/html%20basics/
 

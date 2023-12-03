@@ -1,0 +1,25 @@
+/* Selectors */
+
+/* tag */
+h3 {
+    color: tomato;
+}
+
+/* class */
+.male {
+    color: blue;
+}
+.female {
+    color: purple;
+}
+
+/* Id */
+#mentor {
+    color: darkgreen;
+}
+
+/* Id */
+#college
+{
+    color: orange
+}
