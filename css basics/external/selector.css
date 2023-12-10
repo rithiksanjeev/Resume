@@ -23,3 +23,111 @@ h3 {
 {
     color: orange
 }
+
+/* universal selector */
+
+/* *
+{
+    color: brown;
+} */
+
+#margin-color-background-border{
+
+    /* text */
+    color: red;
+    /* background */
+    background: aqua;
+
+    /* border */
+    /* border-width: 5px;
+    border-style: dotted;
+    border-color: brown; */
+    /* width style color */
+    border: 5px dashed black;
+
+    /* --> margin spacing between two elements--> */
+    /* Spacing outside elements */
+
+    /* margin-top: 150px ;
+    margin-bottom: 150px ;
+    margin-left: 150px;
+    margin-right: 150px; */
+
+    /* margin shorthand */
+    /* topbottom leftright */
+
+    /* margin: 150px 100px; /*pairs / */
+
+    /* all four sides */
+    /* margin: 150px; */
+
+    /* top right bottom left */
+    /* circular way in box model */
+    margin: 20px 40px 60px 80px;
+}
+
+/* spcing between current element and border */
+#padding{
+    border: 5px dashed black;
+    /* for all four sides */
+    /* padding: 50px; */
+    padding-top: 50px; 
+    padding-bottom: 50px;
+    padding-left: 500px;
+    padding-right: 500px; 
+    /*topleft topright bottomright bottomleft border coreners */
+    border-radius: 20px 40px 60px 80px;
+}
+
+/*  */
+#height-width{
+    border: 5px dashed black;
+    background-color: aqua;
+    /*overall height of the box*/
+    height: 100px;  
+    padding-bottom: 20px;
+
+    /* will have content within the box itself */
+    /* overflow: auto; */
+    
+    /* width */
+    width: 1480px;
+    padding-right: 40px;
+
+    /* min-height should be atleate 320px but can contain text within it */
+    min-height: 320px;
+
+    /* can not exceed 320px */
+    /* max-height: 320px; */
+}
+#inline-ele
+{
+    border: 5px dashed black;
+    height: 100px;
+    width: 100px;
+    /*height and width only works with display inline-block for span tag */
+    display: inline-block;
+}
+/* fonts */
+
+#fonts
+{
+    /* https://coolors.co/palettes/trending */
+    /* https://www.w3schools.com/css/css_font.asp */
+    /* serif- default */
+    /* order of failure of latest fonts */
+    /* https://fonts.google.com/specimen/Poppins */
+    font-family: 'Poppins', sans-serif;
+    width: 1080px;
+    overflow: auto;
+    /* bolding lighter to thick */
+    font-weight: 600;
+    /* shadow effect for the element */
+    /* https://getcssscan.com/css-box-shadow-examples */
+    /* 1px-xaxis 2px-yaxis 3px-blur pixel 4px-spread */
+    box-shadow: 1px 2px 3px 4px black;
+    /* text shadow */
+    /* xaxis yaxis blur colour */
+    text-shadow: 3px -2px 7px #ffb703;
+}
+
