@@ -224,3 +224,119 @@ h3 {
     background-color: yellow;
     height: 100px;
 }
+
+/* combinators */
+
+.random
+{
+    color: #ff0000;
+}
+/* random class then is there any child for random and if span is there */
+/* moving from top to bottom */
+/* there should be spaces */
+/* most commonly used */
+/* decendent selectors */
+.random p span{
+    color: rgb(68, 255, 0);
+}
+
+/* pseudo class */
+/* https://www.w3schools.com/css/css_pseudo_classes.asp */
+/* this consist of one colons and defines the state only*/
+a:link
+{
+    color: #ff0000;
+}
+a:active
+{
+    color: green;
+}
+a:visited{
+    color: orange;
+}
+a:hover
+{
+    color: black;
+    transition: 0.4s;
+    font-size: 20px;
+    padding: 4px;
+    border-bottom: 1px solid black;
+}
+
+/* pseudo element */
+/* this consist of two colons it defines the element*/
+a::before {
+    content: "using pseudo element added a test before";
+    color: blueviolet;
+}
+a::after
+{
+    content: "using pseudo element added a test after";
+    color: blueviolet;
+}
+
+p::first-letter
+{
+    font-size: 20px;
+    color: aqua; 
+}
+article::first-line
+{
+    color: brown;
+}
+
+/* variables in css */
+/* having inside root is kind of global declartion of variable */
+:root
+{
+    --primay-color: #FF9800;
+    --secondary-color: #FF98FF;
+    --third-color: #FFFF00;
+}
+
+::selection
+{
+    color: var(--secondary-color)
+}
+/* flex box */
+/* much more flexible to display elements */
+p {
+    min-width: 200px;
+    background: green;
+    display: inline-block;
+}
+.flex-prop
+{
+    display: flex;
+    /* axes gets swtiched */
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    height: 500px;
+    gap: 4px;
+    /* justify content is horizontal axes */
+    justify-content: space-evenly;
+    /*  align-items works in vertical axes */
+    align-items: center;
+    
+}
+
+/* media screen */
+/* when ever width in more than 600 px */
+@media screen and (min-width:600px){
+    p{
+        width: 48%;
+    }
+}
+
+@media screen and (min-width:900px){
+    p{
+        width: 32%;
+    }
+}
+
+@media screen and (min-width:1200){
+    p{
+        width: 24%;
+    }
+}
+
