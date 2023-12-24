@@ -9,5 +9,6 @@ Plain resume: https://rithiksanjeev.github.io/Resume/html%20projects/resume_plai
 Bootstrap basics: https://rithiksanjeev.github.io/Resume/Bootstrap
 
 Css basics:
+
 https://rithiksanjeev.github.io/Resume/css%20basics/html_basics/html_css_basics.html
 https://rithiksanjeev.github.io/Resume/css_basics/html_basics/html_selector.html
