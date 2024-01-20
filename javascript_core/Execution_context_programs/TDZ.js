@@ -55,6 +55,7 @@ var c = add(a,b);
 
 console.log(c);
 
+// Arrow function
 const add = (x,y) => {
     return x+y;
 }
